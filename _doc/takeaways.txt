@@ -1,0 +1,2 @@
+- to make sure the workflow picks up the secrets
+  - modify the file in the https://github.com/stevenmsl/reactcbblobupload/tree/master/.github/workflows folder
