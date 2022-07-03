@@ -1,3 +1,5 @@
+# don't modify this file as it's not used by the workflow
+# modify the file in the .github workflow folder
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
