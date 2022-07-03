@@ -20,6 +20,6 @@ jobs:
           api_location: "api" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-        env: # Add environment variables here - updated3
-          REACT_APP_STORAGESASTOKEN: ${{ secrets.REACT_APP_STORAGESASTOKEN }}
-          REACT_APP_STORAGERESOURCENAME: ${{ secrets.REACT_APP_STORAGERESOURCENAME }}
+        env:
+          REACT_APP_STORAGESASTOKEN: "sv=2021-06-08&ss=b&srt=sco&sp=rwdlactfx&se=2022-07-03T08:48:52Z&st=2022-07-03T00:48:52Z&spr=https&sig=yifXWGd%2Fc7y4wLor9SzxBLh673veFZwQLT0970rnZZ8%3D"
+          REACT_APP_STORAGERESOURCENAME: "arlodevfileuploaddemo"
